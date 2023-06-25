@@ -1,0 +1,44 @@
+header{
+  display:flex;
+  width: auto;
+  height:40px;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: gilroy-medium;
+}
+#lg{
+  font-size: 32px;
+  color: #0065fe;
+  font-family: gilroy-bold;
+  position: relative;
+}  
+.left-menu{
+ background-color: white;
+ display:flex;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.main-menu{
+  background-color: rgb(255, 255, 255);
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 140px;
+  padding: 2px;
+}
+
+.right-menu{
+  background-color:rgb(255, 255, 255);
+  flex:2;
+  gap:10px;
+  max-width:300px;
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+  font-family: gilroy-bold;
+}
+
