@@ -1,18 +1,19 @@
 header{
+  font-family: gilroy;
   display:flex;
   width: auto;
   height:40px;
-  align-items: center;
+  align-items:center;
   padding: 20px;
   flex-direction: row;
   justify-content: space-between;
-  font-family: gilroy-medium;
 }
-#lg{
+.logo{
   font-size: 32px;
+  font-weight: 400;
   color: #0065fe;
   font-family: gilroy-bold;
-  position: relative;
+  padding: 8px;
 }  
 .left-menu{
  background-color: white;
